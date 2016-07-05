@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/Taf.csmp.Repo/!svn/ver/1339/src/branch/csmp/config
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/Taf.csmp.Repo/!svn/ver/1339/src/branch/csmp/config/hibernate.cfg.xml
+END
+struts-good-manage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/struts-good-manage.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/jdbc.properties
+END
+struts-news.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/struts-news.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/log4j.properties
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/config.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/struts.xml
+END
+spring-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/spring-beans.xml
+END
+struts-recruit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/struts-recruit.xml
+END
+struts-user.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/config/struts-user.xml
+END

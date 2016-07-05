@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/role
+END
+role_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/role/role_list.jsp
+END
+role_add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/role/role_add.jsp
+END
+role_change.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/role/role_change.jsp
+END
+role_right.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/role/role_right.jsp
+END

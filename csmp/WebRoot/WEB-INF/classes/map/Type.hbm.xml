@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Type" table="csmp_type_info">
+		<id name="typeId" column="type_id">
+			<generator class="native" />
+		</id>
+		<property name="typeName" column="type_name" not-null="true" />
+		<property name="remark" column="remark" />
+		<property name="parentId" column="parent_id"  not-null="true"/>
+		<property name="typeGrade" column="type_grade" not-null="true"/>
+		<property name="typeUnit" column="type_unit"/>
+	</class>
+	
+</hibernate-mapping>

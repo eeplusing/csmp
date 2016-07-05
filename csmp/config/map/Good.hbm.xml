@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Good" table="csmp_good_info">
+		<id name="goodId" column="good_id">
+			<generator class="native" />
+		</id>
+		<property name="goodName" column="good_name" not-null="true"/>
+		<property name="busyType" column="busy_type" not-null="true"/>
+		<property name="specification" column="specification"/>
+		<property name="headValue" column="head_value"/>
+		<property name="calorificValue" column="calorific_value"/>
+		<property name="upRackTime" column="up_rack_time"/>
+		<property name="downRackTime" column="down_rack_time"/>
+		<property name="goodStat" column="good_state"/>
+		<property name="goodOrigin" column="good_origin"/>
+		<property name="goodVendor" column="good_vendor"/>
+		<property name="goodHot" column="good_hot"/>
+		<set name="images" cascade="all" inverse="false" lazy="false">
+	        <key column="good_id"/>
+	        <one-to-many class="Image"/>
+	    </set>
+	    
+	    <set name="prices" cascade="all" inverse="false" lazy="false">
+	        <key column="good_id"/>
+	        <one-to-many class="Price"/>
+	    </set>
+	    
+	    <many-to-one name="type" column="type_id" not-null="true" lazy="false"></many-to-one>
+	</class>
+	
+</hibernate-mapping>

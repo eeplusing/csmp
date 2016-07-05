@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/car
+END
+car_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/car/car_list.jsp
+END
+manage_address.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/car/manage_address.jsp
+END
+update_address.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/car/update_address.jsp
+END
+address.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/car/address.jsp
+END

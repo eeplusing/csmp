@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Mail" table="csmp_mail_info">
+		<id name="mailId" column="mail_id">
+			<generator class="sequence">
+                <param name="sequence">mail_sequence</param>
+            </generator>
+		</id>
+		<property name="sender" column="sender" not-null="true"/>
+		<property name="getters" column="getters" not-null="true"/>
+		<property name="mailTitle" column="mail_title" not-null="true"/>
+		<property name="mailContent" column="mail_content"/>
+		<property name="annexs" column="annexs"/>
+		<property name="sendTime" column="send_time" not-null="true"/>
+		<property name="ower" column="ower" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

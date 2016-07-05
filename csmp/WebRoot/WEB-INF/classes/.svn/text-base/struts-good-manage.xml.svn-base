@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <constant name="struts.multipart.maxSize" value="20971520"/>
+    
+    <package name="home" namespace="/" extends="json-default">
+         <!--显示商品页面 -->
+        <action name="good_showImage" class="goodManageAction" method="showImage">
+        </action>       
+        <!-- 评论查询 -->
+        <action name="evaluate_search" class="evaluateAction" method="getEvaluateById">
+            <result name="evaluateSearch">/WEB-INF/page/eva/evaluate_list.jsp</result>
+        </action>
+        <!-- 评论页跳转 -->
+        <action name="go_evaluate" class="evaluateAction" method="goEvaluate">
+            <result name="goEva">/WEB-INF/page/eva/add_evaluate.jsp</result>
+        </action>
+		
+        <action name="good_getGoodScan" class="goodManageAction" method="getGoodScan">
+            <!-- 商品浏览 -->
+           <result name="goodScan">/WEB-INF/page/good/good_scan.jsp</result>
+        </action>
+        
+        <action name="good_getGoodShow" class="goodManageAction" method="getGoodShow">
+            <result name="goodShow">/WEB-INF/page/good/good_show.jsp</result>
+        </action>
+        
+        <action name="good_getGoodScanDetail" class="goodManageAction" method="getGoodScanDetail">
+            <!-- 商品浏览详情 -->
+           <result name="goodScanDetail">/WEB-INF/page/good/good_scan_detail.jsp</result>
+        </action>
+        
+    </package>
+</struts>

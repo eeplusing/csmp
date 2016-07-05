@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Order" table="csmp_order_info">
+		<id name="orderId" column="order_id">
+			<generator class="native" />
+		</id>
+		<property name="orderNo" column="order_no" not-null="true" />
+		<property name="orderState" column="order_state" not-null="true" />
+		<property name="orderDate" column="order_date" not-null="true" />
+		<property name="infoFlow" column="info_flow" />
+		<property name="orderAmount" column="order_amount" not-null="true" />
+		<property name="orderCarriage" column="order_carriage" />
+		<property name="orderCycle" column="order_cycle" not-null="true" />
+		<property name="userId" column="user_id" not-null="true" />
+		<property name="evaluateInfo" column="evaluate_info" />
+		<property name="cancelReason" column="cancel_reason" />
+		<property name="checkTime" column="check_time" />
+		<property name="payTime" column="pay_time" />
+		<property name="takeGoodTime" column="take_good_time" />
+		<property name="evaluateTime" column="evaluate_time" />
+		<set name="orderDetails" cascade="all" inverse="false" lazy="false" order-by="info_id asc">
+	        <key column="order_id" not-null="true"/>
+	        <one-to-many class="OrderDetail"/>
+	    </set>
+	    <many-to-one name="address" column="address_id" lazy="false" not-null="true"></many-to-one>
+	</class>
+	
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="OrderDetail" table="csmp_order_detail_info">
+		<id name="infoId" column="info_id">
+			<generator class="native" />
+		</id>
+		<property name="goodId" column="good_id" not-null="true" />
+		<property name="goodName" column="good_name" not-null="true" />
+		<property name="num" column="num" not-null="true" />
+		<property name="salePrice" column="sale_price" />
+		<property name="specification" column="specification"/>
+		<property name="headValue" column="head_value"/>
+		
+	</class>
+	
+</hibernate-mapping>

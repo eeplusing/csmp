@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Group" table="csmp_group_info">
+		<id name="groupId" column="group_id">
+			<generator class="native" />
+		</id>
+		<property name="groupName" column="group_name" not-null="true"/>
+		<property name="fgroupId" column="fgroup_id"/>
+		<property name="groupGrade" column="group_grade" not-null="true"/>
+		<property name="groupLeader" column="group_leader" not-null="true"/>
+        <set name="users" inverse="false" cascade="all" lazy="false">
+	        <key column="group_id"/>
+	        <one-to-many class="User"/>
+	    </set>
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Role" table="csmp_role_info">
+		<id name="roleId" column="role_id">
+			<generator class="native" />
+		</id>
+		<property name="roleName" column="role_name" not-null="true"/>
+		<property name="roleRank" column="role_rank" not-null="true"/>
+        <set name="modles" table="csmp_role_modle" inverse="false">
+	        <key column="role_id"/>
+	        <many-to-many class="Modle" column="modle_id"/>
+	    </set>
+	    <set name="rights" table="csmp_role_right" inverse="false" lazy="false">
+	        <key column="role_id"/>
+	        <many-to-many class="Right" column="right_id"/>
+	    </set>
+	</class>
+
+</hibernate-mapping>

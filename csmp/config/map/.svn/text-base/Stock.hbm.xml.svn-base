@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Stock" table="csmp_stock_info">
+		<id name="stockId" column="stock_id">
+			<generator class="sequence">
+                <param name="sequence">stock_sequence</param>
+            </generator>
+		</id>
+		<property name="goodId" column="good_id" not-null="true"/>
+		<property name="storageId" column="storage_id" not-null="true"/>
+		<property name="stockAmount" column="stock_amount" not-null="true"/>
+
+	</class>
+	
+</hibernate-mapping>

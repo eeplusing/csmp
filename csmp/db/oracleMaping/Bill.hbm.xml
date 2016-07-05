@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Bill" table="csmp_bill_info">
+		<id name="billId" column="bill_id">
+			<generator class="sequence">
+                <param name="sequence">bill_sequence</param>
+            </generator>
+		</id>
+		<property name="billNo" column="bill_no" not-null="true"/>
+		<property name="storageId" column="storage_id" not-null="true"/>
+		<property name="billType" column="bill_type" not-null="true"/>
+		<property name="operTime" column="oper_time"/>
+		<property name="createTime" column="create_time" not-null="true"/>
+		<property name="proposer" column="proposer"/>
+		<property name="perator" column="perator"/>
+		<property name="billStat" column="bill_stat" not-null="true"/>
+		<set name="billDetails" cascade="all" lazy="false">
+			<key column="bill_id" not-null="true"></key>
+			<one-to-many class="BillDetail"/>
+		</set>
+	</class>
+	
+</hibernate-mapping>

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao
+END
+BuyGoodDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/BuyGoodDao.java
+END
+FeedbackDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/FeedbackDao.java
+END
+BillDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/BillDao.java
+END
+PriceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/PriceDao.java
+END
+ChatRecordDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/ChatRecordDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/UserDao.java
+END
+IdepotDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/IdepotDao.java
+END
+OrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/OrderDao.java
+END
+NewsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/NewsDao.java
+END
+CarDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/CarDao.java
+END
+StatDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/StatDao.java
+END
+AddressDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/AddressDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/RoleDao.java
+END
+OperLogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/OperLogDao.java
+END
+StockDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/StockDao.java
+END
+MailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/MailDao.java
+END
+GradeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/GradeDao.java
+END
+BillDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/BillDetailDao.java
+END
+EvaluateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/EvaluateDao.java
+END
+TypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/TypeDao.java
+END
+ModleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/ModleDao.java
+END
+StorageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/StorageDao.java
+END
+ImageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/ImageDao.java
+END
+RightDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/RightDao.java
+END
+GoodDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/GoodDao.java
+END
+DataStatDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/DataStatDao.java
+END
+RecruitDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/RecruitDao.java
+END
+GroupDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/GroupDao.java
+END
+OrderDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/dao/OrderDetailDao.java
+END

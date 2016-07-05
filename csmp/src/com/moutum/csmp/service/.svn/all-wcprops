@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service
+END
+FeedbackService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/FeedbackService.java
+END
+BillService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/BillService.java
+END
+ChatRecordService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/ChatRecordService.java
+END
+PriceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/PriceService.java
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/UserService.java
+END
+IdepotService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/IdepotService.java
+END
+OrderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/OrderService.java
+END
+NewsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/NewsService.java
+END
+AddressService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/AddressService.java
+END
+CarService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/CarService.java
+END
+StatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/StatService.java
+END
+StockService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/StockService.java
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/RoleService.java
+END
+OperLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/OperLogService.java
+END
+MailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/MailService.java
+END
+GradeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/GradeService.java
+END
+BillDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/BillDetailService.java
+END
+EvaluateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/EvaluateService.java
+END
+TypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/TypeService.java
+END
+ImageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/ImageService.java
+END
+ModleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/ModleService.java
+END
+StorageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/StorageService.java
+END
+ServiceSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/ServiceSupport.java
+END
+RightService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/RightService.java
+END
+GoodService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/GoodService.java
+END
+DataStatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/DataStatService.java
+END
+RecruitService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/RecruitService.java
+END
+GroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/GroupService.java
+END
+OrderDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/OrderDetailService.java
+END
+BuyGoodService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/service/BuyGoodService.java
+END

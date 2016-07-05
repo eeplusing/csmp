@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay
+END
+pay_affirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay/pay_affirm.jsp
+END
+pay_form.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay/pay_form.jsp
+END
+pay_success.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay/pay_success.jsp
+END
+pay_faile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay/pay_faile.jsp
+END
+pay_error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/pay/pay_error.jsp
+END

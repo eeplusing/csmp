@@ -1,0 +1,53 @@
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<!-- 1，数据库连接信息 -->
+	<!--Oralce  -->
+	<!--
+	 <property name="dialect">
+		org.hibernate.dialect.OracleDialect
+	</property> 
+	-->
+	<!-- mysql -->
+	<property name="dialect">
+		org.hibernate.dialect.MySQL5InnoDBDialect
+	</property>
+	
+	<!-- 2，其他配置 -->
+	<property name="show_sql">true</property>
+	<property name="hbm2ddl.auto">none</property><!-- update:根据map文件更新，create：重新创建 -->
+	<property name="format_sql">none</property>
+	
+	<!-- 3，导入映射文件 -->
+	<mapping resource="map/Address.hbm.xml"/>
+    <mapping resource="map/Bill.hbm.xml"/>
+    <mapping resource="map/BillDetail.hbm.xml" />
+    <mapping resource="map/BuyGood.hbm.xml" />
+    <mapping resource="map/Car.hbm.xml" />
+    <mapping resource="map/Evaluate.hbm.xml" />
+    <mapping resource="map/Feedback.hbm.xml" />
+    <mapping resource="map/Good.hbm.xml" />
+    <mapping resource="map/Grade.hbm.xml" />
+    <mapping resource="map/Group.hbm.xml" />
+    <mapping resource="map/Idepot.hbm.xml" />
+    <mapping resource="map/Image.hbm.xml" />
+    <mapping resource="map/Mail.hbm.xml" />
+    <mapping resource="map/Modle.hbm.xml" />
+    <mapping resource="map/News.hbm.xml" />
+    <mapping resource="map/OperLog.hbm.xml" />
+    <mapping resource="map/Order.hbm.xml" />
+    <mapping resource="map/OrderDetail.hbm.xml" /> 
+    <mapping resource="map/Price.hbm.xml" />
+    <mapping resource="map/Recruit.hbm.xml" />
+    <mapping resource="map/Right.hbm.xml" />
+    <mapping resource="map/Role.hbm.xml" />
+    <mapping resource="map/Stat.hbm.xml" />
+    <mapping resource="map/Stock.hbm.xml" />
+    <mapping resource="map/Storage.hbm.xml" />
+    <mapping resource="map/Type.hbm.xml" />
+    <mapping resource="map/User.hbm.xml" />
+    <mapping resource="map/ChatRecord.hbm.xml" />
+    <mapping resource="map/DataStat.hbm.xml"/>
+</session-factory>
+</hibernate-configuration>

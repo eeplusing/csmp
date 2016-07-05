@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="csmp"
+  id="myeclipse.1431244838763"
+  context-root="/csmp"
+  j2ee-spec="5.0"
+  archive="csmp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

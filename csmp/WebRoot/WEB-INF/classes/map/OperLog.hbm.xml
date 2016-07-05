@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="OperLog" table="csmp_operlog_info">
+		<id name="logId" column="log_id">
+			<generator class="native" />
+		</id>
+		<property name="operType" column="oper_type" not-null="true"/>
+        <property name="operTime" column="oper_time" not-null="true"/>
+        <property name="operContent" column="oper_content" not-null="true"/>
+        <property name="userId" column="user_id" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

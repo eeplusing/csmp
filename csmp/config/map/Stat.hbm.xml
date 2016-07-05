@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Stat" table="csmp_stat_info">
+		<id name="statId" column="stat_id">
+			<generator class="native" />
+		</id>
+		<property name="userId" column="user_id" not-null="true"/>
+		<property name="loginNum" column="login_num"/>
+		<property name="buyNum" column="buy_num" not-null="true"/>
+		<property name="cancelBuyNum" column="cancel_buy_num" not-null="true"/>
+		<property name="firstBuyTime" column="first_buy_time" not-null="true"/>
+		<property name="createOrderNum" column="create_order_num" not-null="true"/>
+		<property name="cancelOrderNum" column="cancel_order_num" not-null="true"/>
+		<property name="payOrderNum" column="pay_order_num" not-null="true"/>
+		<property name="lastPayTime" column="last_pay_time" not-null="true"/>
+		<property name="lastLoginTime" column="last_login_time" not-null="true"/>
+		<property name="totalTime" column="total_time" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

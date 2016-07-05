@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="news" namespace="/" extends="json-default">
+    	
+    	<!-- 新闻显示 -->
+    	<action name="news_showNews" class="newsAction" method="showNews">
+           <result name="success">/WEB-INF/page/news/news_show.jsp</result>
+        </action>
+        
+        <!-- 新闻列表 -->
+    	<action name="news_list" class="newsAction" method="showAll">
+           <result name="success">/WEB-INF/page/news/news_list.jsp</result>
+        </action>
+        
+    </package>
+</struts>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot
+END
+add_idepot.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/add_idepot.jsp
+END
+kucun_info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/kucun_info.jsp
+END
+in_storage_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/in_storage_list.jsp
+END
+in_storage_detail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/in_storage_detail.jsp
+END
+add_in_storage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/add_in_storage.jsp
+END
+idepot_info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/idepot/idepot_info.jsp
+END

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+    <!-- 引入商品管理配置文件 -->
+    <include file="struts-good-manage.xml" /> 
+    <include file="struts-user.xml" /> 
+    <include file="struts-recruit.xml" /> 
+    <include file="struts-news.xml" /> 
+    
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    
+    <package name="authority" namespace="/" extends="json-default">
+        <interceptors>
+            <interceptor name="authority" class="com.moutum.csmp.interceptot.MyInterceptot"></interceptor>
+            
+            <interceptor-stack name="mydefault">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="authority"/>
+            </interceptor-stack>
+        </interceptors>
+        
+        <!-- 设置默认拦截器 -->
+        <default-interceptor-ref name="mydefault"/>
+        
+        <global-results>
+            <result name="login">/WEB-INF/page/home/login.jsp</result>
+            <result name="no_page">/WEB-INF/page/home/no_page.jsp</result>
+            <result name="no_right">/WEB-INF/page/right/no_right.jsp</result>
+        </global-results>
+        
+        <!-- 管理员页面 -->
+        <action name="manager_index" class="homeAction" method="managerIndex">
+            <result name="success">/WEB-INF/page/home/manager-index.jsp</result>
+        </action>
+		
+        <action name="price_*" class="priceAction" method="{1}">
+        </action>
+        
+        
+        <action name="group_*" class="groupAction" method="{1}">
+            <result name="list">/WEB-INF/page/group/group_list.jsp</result>
+        </action>
+        
+        <!-- 商品分类列表 -->  
+        <action name="good_variety_manage" class="goodManageAction" method="showVariety">
+            <result name="allVariety">/WEB-INF/page/good/good_VarietyManage.jsp</result>
+        </action>
+        
+        <!-- 商品种类信息 -->
+        <action name="type_*" class="goodTypeAction" method="{1}">
+          <result name="get_list">/WEB-INF/page/good/good_VarietyManage.jsp</result>         
+        </action>
+        
+      
+        <!-- 查看账户 -->
+        <action name="user_list" class="userAction" method="showAll">
+           <result name="success">/WEB-INF/page/user/user_list.jsp</result>
+        </action>
+        
+        <!-- 打开账户角色页面 -->
+        <action name="user_changerole" class="userAction" method="changeRole">
+           <result name="success">/WEB-INF/page/user/user_addrole.jsp</result>
+        </action>
+        
+        <!-- 保存账户角色 -->
+        <action name="user_saverole" class="userAction" method="saveRole">
+           <result name="success">/WEB-INF/page/user/user_list.jsp</result>
+        </action>
+        
+        <!-- 冻结账户 -->
+        <action name="user_groupfreeze" class="userAction" method="groupFreeze">
+           <result name="success">/WEB-INF/page/user/user_list.jsp</result>
+        </action>
+        
+        <!-- 解冻账户 -->
+        <action name="user_groupwarm" class="userAction" method="groupwarm">
+           <result name="success">/WEB-INF/page/user/user_list.jsp</result>
+        </action>
+        
+        <!-- 注销账户 -->
+        <action name="user_groupwithdraw" class="userAction" method="groupwithdraw">
+           <result name="success">/WEB-INF/page/user/user_list.jsp</result>
+        </action>
+       
+       <!-- 查看角色 -->
+        <action name="role_list" class="roleAction" method="showAll">
+        	<result name ="success">/WEB-INF/page/role/role_list.jsp</result>
+        </action>
+        
+        <!-- 修改角色 -->
+        <action name="role_changename" class="roleAction" method="changeName">
+        	<result name ="success">/WEB-INF/page/role/role_change.jsp</result>
+        </action>
+        
+        <!-- 保存修改角色 -->
+        <action name="role_modify" class="roleAction" method="change">
+        	<result name ="success">/WEB-INF/page/role/role_list.jsp</result>
+        </action>
+        
+        <!-- 添加角色 -->
+        <action name="role_add" class="roleAction" method="add">
+        	<result name ="success">/WEB-INF/page/role/role_add.jsp</result>
+        </action>
+        
+        <!-- 保存新添加角色 -->
+        <action name="role_addrole" class="roleAction" method="addRole">
+        	<result name ="success">/WEB-INF/page/role/role_list.jsp</result>
+        </action>
+        
+        <!-- 删除角色 -->
+        <action name="role_delete" class="roleAction" method="deleteRole">
+        	<result name ="success">/WEB-INF/page/role/role_list.jsp</result>
+        </action>
+ 
+        <!-- 出库管理 -->
+        <action name="bill_*" class="outStorageAction" method="{1}">
+            <result name="get_bill">/WEB-INF/page/outstorage/out_storage_list.jsp</result>
+            <result name="out_storage">/WEB-INF/page/outstorage/add_outstorage.jsp</result> 
+            <result name="out_detail">/WEB-INF/page/outstorage/out_storage_detail.jsp</result>
+        </action>
+        
+        <!-- 出库 -->
+        <action name="update_out_storage" class="outStorageAction" method="update0utStorage">
+           <result name="success" type="json">
+               <param name="root">result1</param>
+            </result>
+        </action>
+        
+        <!--保存出库单  -->
+        <action name="out_state" class="outStorageAction" method="outState">
+           <result name="success" type="json">
+             <param name="root">results</param>
+            </result>
+        </action>
+         
+        <!-- 入库单查询 -->
+        <action name="in_storage_list" class="idepotAction" method="getInStorageList">
+            <result name="inStorageList">/WEB-INF/page/idepot/in_storage_list.jsp</result>
+        </action>
+        
+        <!-- 新增入库单 -->
+        <action name="go_in_storage" class="idepotAction" method="goInStorage">
+            <result name="GoInStorage">/WEB-INF/page/idepot/add_in_storage.jsp</result>
+        </action>
+        
+        <!-- 保存入库单 -->
+        <action name="save_in_storage" class="idepotAction" method="saveInStorage">
+            <result name="success" type="json">
+             <param name="root">results</param><!-- results是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+            </result>
+        </action>
+        
+        <!-- 确认入库单 -->
+        <action name="update_in_storage" class="idepotAction" method="updateInStorage">
+            <result name="success" type="json">
+             <param name="root">result1</param><!-- results是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+            </result>
+        </action>
+        
+        <!-- 入库单详情 -->
+        <action name="in_storage_detail" class="idepotAction" method="getInStorageDetail">
+            <result name="inStorageDetail">/WEB-INF/page/idepot/in_storage_detail.jsp</result>
+        </action>
+
+        <!-- 跳转到数据导出 -->
+        <action name="go_export_data" class="exportAction" method="goExportData">
+            <result name="success">/WEB-INF/page/export/export_data.jsp</result>
+        </action>
+        
+        <!-- 库存数据导出 -->
+        <action name="export_stock_data" class="exportAction" method="exportStockData">
+            <result name="exportStock" type="stream">
+                <param name="inputStream">excelStream</param>              
+                <param name="ContentType">application/vnd.ms-excel</param>
+                <param name="contentDisposition">attachment;filename="stock.xls"</param>
+            </result>          
+        </action>
+        
+        <!-- 订单数据导出 -->
+        <action name="export_order_data" class="exportAction" method="exportOrderData">
+            <result name="exportOrder" type="stream">
+                <param name="inputStream">excelStream</param>              
+                <param name="ContentType">application/vnd.ms-excel</param>
+                <param name="contentDisposition">attachment;filename="order.xls"</param>
+            </result>          
+        </action>
+        
+        <!-- 岗位添加与修改 -->
+        <action name="recruit_addandchange" class="recruitAction" method="addAndChangeRecruit">
+           <result name="success">/WEB-INF/page/recruit/recruit_add.jsp</result>
+        </action>
+        
+        <!-- 保存岗位 -->
+        <action name="recruit_addchange" class="recruitAction" method="addChangeRecruit">
+           <result name="success">/WEB-INF/page/recruit/recruit_list.jsp</result>
+        </action>
+        
+        <!-- 岗位删除 -->
+        <action name="recruit_delete" class="recruitAction" method="deleteRecruit">
+           <result name="success">/WEB-INF/page/recruit/recruit_list.jsp</result>
+        </action>
+        
+        <!-- 新闻删除 -->
+        <action name="news_delete" class="newsAction" method="deleteNews">
+           <result name="success">/WEB-INF/page/news/news_list.jsp</result>
+        </action>
+        
+        <!-- 新建新闻 -->
+        <action name="news_addNews" class="newsAction" method="showNews">
+           <result name="success">/WEB-INF/page/news/news_show.jsp</result>
+        </action>
+        
+        <!-- 保存新闻 -->
+        <action name="news_save" class="newsAction" method="saveNewsNews">
+           <result name="success">/WEB-INF/page/news/news_list.jsp</result>
+        </action>
+        
+        <!-- 权限管理 -->
+        <action name="right_list" class="rightAction" method="showAll">
+           <result name="success">/WEB-INF/page/right/right_list.jsp</result>
+        </action>
+        
+        <!-- 打开授权页面 -->
+        <action name="right_getRightTree" class="rightAction" method="getRightTree">
+           <result name="tree">/WEB-INF/page/role/role_right.jsp</result>
+        </action>
+        
+        <!-- 保存权限 -->
+        <action name="right_save" class="rightAction" method="saveRight">
+        </action>
+        
+         <!-- 库存信息 -->
+        <action name="kucun_info" class="idepotAction" method="storeList">
+            <result name="allStore">/WEB-INF/page/idepot/kucun_info.jsp</result>
+        </action>
+        
+        <!-- 新增仓库 -->
+		<action name="store_add" class="idepotAction" method="storeAdd">
+		</action>
+		
+		<!-- 编辑仓库 显示要编辑的仓库信息 -->
+		<action name="store_modify_show" class="idepotAction" method="storeModifyShow">
+		</action>
+		
+		<!-- 编辑仓库 -->
+		<action name="store_modify" class="idepotAction" method="storeModify">
+		</action>
+		
+		<!-- 删除仓库 -->
+		<action name="store_delete" class="idepotAction" method="storeDelete">
+		</action>
+
+
+		<!-- 搜索仓库 -->
+		<action name="store_searchKucun" class="idepotAction" method="searchKucun">
+			<result name="success">/WEB-INF/page/idepot/kucun_info.jsp</result>
+		</action>
+		
+		<!-- 商品管理主页面 -->
+		<action name="good_manage_main" class="goodManageAction" method="list">
+    		<result name="allGoods">/WEB-INF/page/good/good_manage.jsp</result>
+		</action>
+        
+        <!-- 商品管理_查询商品 -->
+		<action name="search_good" class="goodManageAction" method="showGood">
+    		<result name="resultGoods">/WEB-INF/page/good/good_manage.jsp</result>
+		</action>
+
+		<!-- 添加商品页面-->
+		<action name="good_add_page" class="goodManageAction" method="pageOpen">
+            <result name="open">/WEB-INF/page/good/good_add.jsp</result>
+		</action>
+        
+		<!-- 修改商品商品信息页面 -->
+		<action name="good_modify_page" class="goodManageAction" method="page">
+    		<result name="open">/WEB-INF/page/good/good_modify.jsp</result>
+    		<result name="openImgModify">/WEB-INF/page/good/good_imageModify.jsp</result>
+		</action>
+        
+		<!--编辑 图片 页面 -->
+		<action name="good_image" class="goodManageAction" method="pageImage">
+    		<result name="openImgModify">/WEB-INF/page/good/good_imageModify.jsp</result>
+		</action>
+        
+		<!-- 添加商品分类页面 -->
+		<action name="good_setImage" class="goodManageAction" method="setImage"></action>
+		<action name="good_delImage" class="goodManageAction" method="delImage"></action>
+		<action name="good_image_upload" class="goodManageAction" method="imageUpload">
+     		<result name="success">/WEB-INF/page/good/good_imageModify.jsp</result>
+		</action>
+        
+		<!-- 修改商品 基本信息 -->
+		<action name="good_modify" class="goodManageAction" method="goodBaseModify">
+		</action>
+
+		<!-- 添加商品 -->
+		<action name="good_add" class="goodManageAction" method="goodAdd">
+		    <result name="success">/WEB-INF/page/good/good_add.jsp</result>
+		</action>
+        
+		<!-- 删除商品 -->
+		<action name="good_delete" class="goodManageAction" method="delete">
+		</action>
+        
+ 		<!-- 上下架商品 -->
+		<action name="good_rack" class="goodManageAction" method="rack">
+		</action>
+		
+		<!-- 设为热销商品 -->
+		<action name="good_setHot" class="goodManageAction" method="setHot">
+		</action>
+        
+		<!-- 商品价格 -->
+		<action name="good_price" class="goodManageAction" method="price">
+    		<result name="price_list">/WEB-INF/page/good/good_price.jsp</result>
+		</action>
+		
+		<!-- 购物车管理 -->
+		<action name="car_*" class="carAction" method="{1}">
+            <result name="get_car">/WEB-INF/page/car/car_list.jsp</result> 
+        </action>
+        
+         <!-- 地址管理 -->
+        <action name="address_*" class="addressAction" method="{1}">
+            <result name="select_address">/WEB-INF/page/car/address.jsp</result> 
+            <result name="up_address">/WEB-INF/page/car/update_address.jsp</result> 
+            <result name="sele_add">/WEB-INF/page/car/manage_address.jsp</result> 
+            <result name="add_address">/WEB-INF/page/car/manage_address.jsp</result> 
+        </action>
+        
+        <action name="pay_*" class="paynetAction" method="{1}">
+			<result name="payform">/WEB-INF/page/pay/pay_form.jsp</result>
+			<result name="paysuccess">/WEB-INF/page/pay/pay_success.jsp</result>
+			<result name="payfaile">/WEB-INF/page/pay/pay_faile.jsp</result>
+			<result name="payerror">/WEB-INF/page/pay/pay_error.jsp</result>
+			<result name="upfaile">/WEB-INF/page/pay/up_faile.jsp</result>
+			<result name="affirm">/WEB-INF/page/pay/pay_affirm.jsp</result>
+		</action>
+		
+		<!-- 订单查询(管理员) -->
+		<action name="order_*" class="orderAction" method="{1}">
+            <result name="m-order">/WEB-INF/page/order/manager_order.jsp</result>
+            <result name="c-order">/WEB-INF/page/order/customer_order.jsp</result>
+            <result name="info">/WEB-INF/page/order/order_info.jsp</result>
+        </action>
+
+        <!-- 加入购物车 -->
+        <action name="save_car_good" class="carAction" method="saveCarGood">
+     	  <result type="json">
+			<param name="root">data</param>
+		  </result>
+        </action>
+        
+        <action name="has_new_order" class="homeAction" method="hasNewOrder"></action>
+    </package>
+</struts>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Image" table="csmp_image_info">
+		<id name="imageId" column="image_id">
+			<generator class="sequence">
+                <param name="sequence">image_sequence</param>
+            </generator>
+		</id>
+		<property name="imagePath" column="image_path" not-null="true"/>
+		<property name="isDefault" column="is_default" not-null="true"/>
+	</class>
+	
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/forgetpswd
+END
+reset_password.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/forgetpswd/reset_password.jsp
+END
+forget_complete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/forgetpswd/forget_complete.jsp
+END
+forget_password.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/forgetpswd/forget_password.jsp
+END

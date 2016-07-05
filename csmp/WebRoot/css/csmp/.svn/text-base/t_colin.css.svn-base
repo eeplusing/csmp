@@ -1,0 +1,27 @@
+body,ul,li,span, input,a{
+	margin: 0px;
+	padding: 0px;
+}
+#cjs_tree ul {
+	border: 0px solid #0f0;
+	margin-left: 0px;
+	padding: 0px;
+}
+#cjs_tree li {
+	list-style: none;
+	border: 0px solid;
+	padding-left: 20px;
+}
+
+li.opened{
+	background: url("../tree/folderOpen.gif") no-repeat;
+}
+li.closed{
+	background: url("../tree/folderClosed.gif") no-repeat;
+}
+li.no_childs{
+	background: url("../tree/leaf.gif") no-repeat;
+}
+input.cb_abc{
+	border:1px solid #F00;
+}

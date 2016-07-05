@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/order
+END
+manager_order.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/order/manager_order.jsp
+END
+customer_order.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/order/customer_order.jsp
+END
+order_info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/order/order_info.jsp
+END

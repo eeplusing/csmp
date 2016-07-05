@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Right" table="csmp_right_info">
+		<id name="rightId" column="right_id">
+			<generator class="sequence">
+                <param name="sequence">right_sequence</param>
+            </generator>
+		</id>
+		<property name="rightName" column="right_name" not-null="true"/>
+        <property name="function" column="function" not-null="true"/>
+        <property name="rightRemark" column="right_remark"/>    
+        <property name="modleId" column="right_modle_id"/>
+        
+	</class>
+
+</hibernate-mapping>

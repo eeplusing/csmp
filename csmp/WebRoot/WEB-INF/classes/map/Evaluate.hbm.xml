@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Evaluate" table="csmp_evaluate_info">
+		<id name="evaluateId" column="evaluate_id">
+			<generator class="native" />
+		</id>
+		<property name="goodId" column="good_id" not-null="true"/>
+		<property name="evaluateTime" column="evaluate_time" not-null="true"/>
+		<property name="userId" column="user_id" not-null="true"/>
+		<property name="evaluateGrade" column="evaluate_grade" not-null="true"/>
+        <property name="evaluateContent" column="evaluate_content" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

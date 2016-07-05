@@ -1,0 +1,116 @@
+10
+
+dir
+1340
+http://dev.moutum.com:8102/repos/Taf.csmp.Repo/src/branch/csmp/WebRoot/WEB-INF/page
+http://dev.moutum.com:8102/repos/Taf.csmp.Repo
+
+
+
+2015-08-31T09:15:58.531878Z
+1331
+bian.weiqing
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e3ade51c-1073-b743-932e-4d320b302384
+
+car
+dir
+
+chat
+dir
+
+eva
+dir
+
+export
+dir
+
+forgetpswd
+dir
+
+good
+dir
+
+group
+dir
+
+home
+dir
+
+idepot
+dir
+
+news
+dir
+
+order
+dir
+
+outstorage
+dir
+
+pay
+dir
+
+recruit
+dir
+
+regist
+dir
+
+right
+dir
+
+role
+dir
+
+taglib.jsp
+file
+
+
+
+
+2015-12-14T12:06:31.570000Z
+27bd02031e69d2a8d72b4b11a14ea7cf
+2015-08-31T09:15:58.531878Z
+1331
+bian.weiqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+324
+
+user
+dir
+

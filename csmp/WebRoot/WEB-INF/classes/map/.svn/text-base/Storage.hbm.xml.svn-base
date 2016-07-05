@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="Storage" table="csmp_storage_info">
+		<id name="storageId" column="storage_id">
+			<generator class="sequence">
+                <param name="sequence">storage_sequence</param>
+            </generator>
+		</id>
+		<property name="storageName" column="storage_name" not-null="true"/>
+		<property name="storageSpecification" column="storage_specification"/>
+		<property name="storageAddress" column="storage_address" not-null="true"/>
+		<property name="ower" column="ower" not-null="true"/>
+		<property name="stockMaxAmount" column="stock_max_amount" />
+		<property name="stockIniAmount" column="stock_ini_amount" />
+		<property name="stockAmount" column="stock_amount" />
+		<property name="distributionWay" column="distribution_way" />
+		<property name="waterproofGrade" column="waterproof_grade" />
+		<property name="surface" column="surface" />
+		<property name="storageStat" column="storage_stat" not-null="true" />
+	</class>
+	
+</hibernate-mapping>

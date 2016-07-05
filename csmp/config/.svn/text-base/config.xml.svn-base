@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- 系统默认角色ID -->
+	<roleid>1</roleid>
+	
+	<!-- 系统默认等级ID -->
+	<gradeid>4</gradeid>
+	
+	<!-- 默认等级ID -->
+	<grade0>1</grade0>
+	
+	<!-- 一类等级ID -->
+	<grade1>2</grade1>
+	
+	<!-- 二类等级ID -->
+	<grade2>3</grade2>
+	
+	<!-- 三类等级ID -->
+	<grade3>4</grade3>
+	
+	<!-- 煤炭大类ID -->
+	<mtRootId>1</mtRootId>
+	
+	<!-- 炉具大类ID -->
+	<lzRootId>90</lzRootId>
+	
+	<!-- 化肥大类ID -->
+	<hfRootId>48</hfRootId>
+	
+	<!-- 农药大类ID -->
+	<nyRootId>47</nyRootId>
+	
+	<!-- 系统默认图片路径 -->
+	<defaultImagePath>C://image//default.png</defaultImagePath>
+	
+	<!-- 商品图片上传路径根目录 -->
+	<uploadImagePath>C://image//</uploadImagePath>
+	
+	<!-- 中文版权声明 -->
+	<coperightZH>版权所有  卖炭网</coperightZH>
+	
+	<!-- 英文版权声明 -->
+	<coperightEN>IPC备案号：陇ICP备15000401号-1</coperightEN>
+	
+	<!-- 技术支持 -->
+	<supporter>西安魔盾电气工程自动化研究所有限公司</supporter>
+</config>

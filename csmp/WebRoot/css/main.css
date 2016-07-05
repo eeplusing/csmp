@@ -1,0 +1,309 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-size: 12px;
+	color: #222;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	border: 0px solid #F00;
+	overflow: hidden;
+}
+
+ul,li {
+	list-style: none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+img {
+	border: none;
+}
+
+.wrapper {
+	width: 1423px;
+	margin: 0px auto;
+	padding-bottom: 0px;
+	border: 0px solid #F00;
+}
+
+h1 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", SimHei;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+
+/* focus */
+#focus {
+	width: 1423px;
+	height: 535px;
+	overflow: hidden;
+	position: relative;
+	border: 0px solid #0F0;
+}
+
+#focus ul {
+	height: 535px;
+	position: absolute;
+	border: none;
+}
+
+#focus ul li {
+	float: left;
+	width: 1423px;
+	height: 535px;
+	overflow: hidden;
+	position: relative;
+	background: #FFF;
+	border: none;
+}
+
+#focus ul li div {
+	position: absolute;
+	overflow: hidden;
+}
+
+#focus .btnBg {
+	position: absolute;
+	width: 1423px;
+	height: 20px;
+	left: 0px;
+	bottom: 0px;
+	background: #000;
+}
+
+#focus .btn {
+	position: absolute;
+	width: 1400px;
+	height: 10px;
+	padding: 5px 10px;
+	right: 0px;
+	bottom: 0px;
+	text-align: right;
+}
+
+#focus .btn span {
+	display: inline-block;
+	_display: inline;
+	_zoom: 1;
+	width: 25px;
+	height: 10px;
+	_font-size: 0px;
+	margin-left: 5px;
+	cursor: pointer;
+	background: #FFF;
+}
+
+#focus .btn span.on {
+	background: #FFF;
+}
+
+#focus .preNext {
+	width: 45px;
+	height: 100px;
+	position: absolute;
+	top: 165px;
+	background: url(../images/sprite.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+#focus .pre {
+	left: 0px;
+}
+
+#focus .next {
+	right: 0px;
+	background-position: right top;
+}
+
+#footer {
+	width: 100%;
+	margin: 1px auto;
+	border: 0px solid #F00;
+	background: #F9F9F9;
+	clear: both;
+}
+
+
+.footer_shadow {
+	height: 1px;
+	background-color: #C4D15A;
+}
+
+.footer_modle {
+	width: 80%;
+	border: 1px solid #DDD;
+	padding-left:15%;
+}
+
+.footer_modle div {
+	float: left;
+	_height: 225px;
+	min-height: 225px;
+	margin: 15px 15px 0px 15px;
+}
+.link{
+    width: 165px;
+}
+
+.footer_modle div span b {
+	color: #3C3C3C;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.footer_modle div span a {
+	color: #C4D15A;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.footer_modle div img {
+	display: inline;
+}
+
+div.link a {
+	margin: 0px;
+	height: 25px;
+	color: #3C3C3C;
+	display: block;
+	padding-top:5px;
+	text-decoration: none;
+	border-top: 1px dashed #CCC;
+}
+div.link a.last_a{
+	border-bottom: 1px dashed #CCC;
+}
+div.link a.first_a{
+	padding-top:0px;
+	border-top: 0px dashed #CCC;
+}
+
+div.link a:hover {
+	margin: 0px;
+	height: 25px;
+	color: #3C3C3C;
+	display: block;
+	text-decoration: none;
+	background-color: #999;
+	border-top: 1px dashed #CCC;
+}
+.f_bq {
+	clear: left;
+	margin: 5px 0%;
+	width: 100%;
+	color: #3C3C3C;
+	border-top: 2px solid  #C4D15A;
+	background:#C4D15A;
+	
+}
+
+.f_bq span {
+	margin-left: 12px;
+}
+
+.f_bq a {
+	color: #3C3C3C;
+	margin-bottom: 3px;
+}
+
+#tabbox {
+	width: 1423px;
+	overflow: hidden;
+	margin: 5px auto;
+}
+
+.tab_conbox {
+	border: 1px solid #999;
+	border-top: none;
+}
+
+.tab_con {
+	display: none;
+}
+
+.tabs {
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+
+.tabs li {
+	height: 31px;
+	line-height: 31px;
+	width: 24.9%;
+	float: left;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: 0px;
+	background: #e0e0e0;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.tabs li a {
+	display: block;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+
+.tabs li a:hover {
+	background: #ccc;
+}
+
+.tabs .thistab,.tabs .thistab a:hover {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.tab_con {
+	padding: 0px;
+	font-size: 14px;
+	line-height: 120%;
+	height: 350px;
+}
+
+.tab_con span {
+	float: left;
+	width: 21.3%;
+	margin: 5px 26px;
+}
+
+.tab_con span p {
+	color: #999;
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.tab_con span img {
+	width: 300px;
+	height: 205px;
+}
+
+.tab_con a {
+	display: block;
+	border: 0px solid #DDD;
+}

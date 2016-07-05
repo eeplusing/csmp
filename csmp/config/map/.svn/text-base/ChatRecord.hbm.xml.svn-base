@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="ChatRecord" table="csmp_chat_record">
+		<id name="id" column="chat_id">
+			<generator class="sequence">
+                <param name="sequence">chat_sequence</param>
+            </generator>
+		</id>
+		<property name="senderUsername" />
+		<property name="sendeeUsername" />
+		<property name="senderTime" />
+		<property name="content" column="ccontent"/>
+        <property name="filePath" />
+        <property name="state" />
+	</class>
+
+</hibernate-mapping>

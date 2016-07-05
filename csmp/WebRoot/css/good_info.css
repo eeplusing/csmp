@@ -1,0 +1,199 @@
+body{
+	width:1000px;
+	height:1300px;
+	border:1px solid grey;
+	font-size: 15px;
+	margin:0 auto;
+}
+a{
+	border:0px solid #F00;
+	color:#111;
+	text-decoration: none;
+}
+a:HOVER{
+	color:#F00;
+	text-decoration: underline;
+}
+.top1{
+	width:1000px;
+	height:28px;
+	background-color: #b4b4b4;
+}
+/*登录*/
+.login{
+	width:416px;
+	height:26px;
+	/*background-color: green;*/
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+/*卖炭网首页*/
+.indexpage{
+	width:105px;
+	height:26px;
+	/*background-color: pink;*/
+	float: right;
+	margin-left: 80px;
+	margin-top: 2px;
+}
+
+/*商品详情*/
+.goodinfo{
+	width:1000px;
+	height:400px;
+	/*background-color: pink;*/
+	margin-top:5px;
+}
+/*图片部分*/
+.pic{
+	/*background-color: blue;*/
+	width:400px;	
+	float: left;
+	margin-top:5px;
+	margin-left:15px;
+	text-align: center;
+	border:0px solid #ddd;
+}
+.pic img{
+	width:350px;
+	height:300px;
+	margin-left:0px;
+	margin-top:5px;
+}
+.pic img:hover{
+	border:1px solid green;
+}
+/*文字部分*/
+.text{
+	/*background-color: green;*/
+	width:450px;
+	height:380px;
+	float: left;
+	margin-top:8px;
+	margin-left:10px;
+	line-height: 280%;
+}
+/*价格*/
+.price{
+	/*background-color: pink;*/
+	color:red;
+	font-size:22px;
+	font-style: italic;
+	font-weight: bold;	
+}
+/*vip价格*/
+.vip{
+	background-color: pink;
+	color:red;
+	font-size:22px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top:10px;	
+}
+/*配送*/
+.transfer{
+	/*background-color: grey;*/
+	margin-top:10px;	
+}
+/*配送地点*/
+.destination{
+	/*background-color: pink;*/
+	font-size:15px;	
+	float:left;
+}
+/*快递*/
+.delivery{
+	/*background-color: blue;*/
+	font-size:15px;		
+}
+/*数量*/
+.number{
+	/*background-color: red;*/
+	margin-top:10px;
+	font-size:15px;	
+}
+.num{
+	width:25px;
+	border:0px solid #999;
+	text-align: center;
+	font-size: 16px;
+}
+.num_text{
+	height:19px;
+	border-left:0px solid;
+	border-right:0px solid; 
+}
+.num2{
+	border:0px solid #999;
+	background: #FFF;
+	width: 50px;
+}
+/*决策*/
+.decision{
+	/*background-color: grey;*/
+	margin-top:17px;	
+}
+/*立即购买*/	
+.buy{
+	height:50px;
+	width:178px;
+	float:left;
+	background: url("images/buy.jpg") no-repeat;	
+}
+/*加入购物车*/
+.car{
+	height:50px;
+	width:233px;
+	background: url("images/car2.jpg") no-repeat;
+	margin-left:7px;
+}
+/*承诺*/
+.promise{
+	/*background-color: red;*/
+	margin-top:9px;	
+}
+/*支付*/
+.pay{
+	/*background-color: grey;*/
+	margin-top:9px;	
+}
+
+
+/*其他信息*/
+.other{
+	width:1000px;
+	height:40px;
+	background-color: silver;
+	margin-top:10px;
+}
+.info{
+	width:60px;
+	height:30px;
+	float: left;
+	margin-top:10px;
+	margin-left: 15px;
+}
+.describe{
+	width:1000px;
+	heigth:400px;
+	margin-top:17px;
+	float: left;
+	line-height:230%;
+	margin-left:20px;
+	font-size:17px;
+}
+.evaluate{
+	width:60px;
+	height:30px;
+	float: left;
+	margin-top:10px;
+	margin-left: 20px;
+}
+.log{
+	width:60px;
+	height:30px;
+	float: left;
+	margin-top:10px;
+	margin-left: 20px;
+}

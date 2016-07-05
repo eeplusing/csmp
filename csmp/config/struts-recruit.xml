@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="recruit" namespace="/" extends="json-default">
+    	
+    	<!-- 岗位显示 -->
+    	<action name="recruit_showrecruit" class="recruitAction" method="showRecruit">
+           <result name="success">/WEB-INF/page/recruit/recruit_show.jsp</result>
+        </action>
+        
+        <!-- 岗位列表 -->
+    	<action name="recruit_list" class="recruitAction" method="showAll">
+           <result name="success">/WEB-INF/page/recruit/recruit_list.jsp</result>
+        </action>
+        
+    </package>
+</struts>

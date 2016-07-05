@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/outstorage
+END
+add_outstorage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/outstorage/add_outstorage.jsp
+END
+out_storage_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/outstorage/out_storage_list.jsp
+END
+out_storage_detail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/WebRoot/WEB-INF/page/outstorage/out_storage_detail.jsp
+END

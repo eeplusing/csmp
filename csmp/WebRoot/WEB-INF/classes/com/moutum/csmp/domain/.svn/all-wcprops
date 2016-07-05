@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Order.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/User.java
+END
+Idepot.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Idepot.java
+END
+ChatRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/ChatRecord.java
+END
+Price.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Price.java
+END
+Bill.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Bill.java
+END
+Feedback.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Feedback.java
+END
+BuyGood.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/BuyGood.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Group.java
+END
+OrderDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/OrderDetail.java
+END
+DataStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/DataStat.java
+END
+Recruit.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Recruit.java
+END
+Good.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Good.java
+END
+Right.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Right.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Image.java
+END
+Modle.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Modle.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Storage.java
+END
+Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Type.java
+END
+Evaluate.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Evaluate.java
+END
+BillDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/BillDetail.java
+END
+Mail.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Mail.java
+END
+Grade.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Grade.java
+END
+OperLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/OperLog.java
+END
+Stock.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Stock.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Role.java
+END
+Car.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Car.java
+END
+Stat.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Stat.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/Address.java
+END
+News.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Taf.csmp.Repo/!svn/ver/1331/src/branch/csmp/src/com/moutum/csmp/domain/News.java
+END

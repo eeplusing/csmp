@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="default" namespace="/" extends="json-default">
+    
+        <default-action-ref name="page404"/>
+        
+        <global-results>
+           <result name="home">/manager-index.jsp</result>
+        </global-results>
+        
+        <action name="page404">
+            <result name="success">/WEB-INF/page/home/404.jsp</result>
+        </action>
+        
+		<action name="index" class="homeAction" method="index">
+			<result name="success">/WEB-INF/page/home/home.jsp</result>
+		</action>
+		
+		<action name="main" class="homeAction" method="mainNews">
+			<result name="success">/WEB-INF/page/home/main.jsp</result>
+		</action>
+		
+		<action name="footer" class="homeAction" method="foot">
+			<result name="success">/WEB-INF/page/home/footer.jsp</result>
+		</action>
+		
+		<action name="login">
+			<result name="success">/WEB-INF/page/home/login.jsp</result>
+		</action>
+		
+		<action name="load_child_types" class="goodTypeAction" method="loadChildren"></action>
+		
+		<action name="update_pass">
+			<result name="success">/WEB-INF/page/home/up_pass_word.jsp</result>
+		</action>
+		
+		<action name="home_*" class="homeAction" method="{1}">
+			<result name="success">/WEB-INF/page/home/login.jsp</result>
+			<result name="login-out">/WEB-INF/page/home/home.jsp</result>
+	    </action>
+	    
+	    <action name="open_*" class="openPageAction" method="{1}">
+			<result name="customer">/WEB-INF/page/chat/customer.jsp</result>
+			<result name="manager">/WEB-INF/page/chat/manager.jsp</result>
+		</action>
+		
+		<action name="cr_*" class="chatRecordAction" method="{1}">
+		    <result name="customer">/WEB-INF/page/chat/customer.jsp</result>
+			<result name="manager">/WEB-INF/page/chat/manager.jsp</result>
+		</action>
+		
+		<action name="f_*" class="fileAction" method="{1}">
+		</action>
+		
+		<action name="rand" class="securityCodeAction">
+			<result type="stream"> 
+				<param name="contentType">image/jpeg</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+		
+		<action name="check_user" class="homeAction" method="check"></action>
+        
+       	<action name="good_info" class="goodListAction" method="goodInfo">
+            <result name="info">/WEB-INF/page/good/good_info.jsp</result> 
+        </action>
+        
+        <!-- 保存评论 -->
+        <action name="add_evaluate" class="evaluateAction" method="saveEvaluate">
+            <result type="json">
+			 	<param name="root">status</param>
+		    </result>
+        </action>
+        
+        <!-- 关于我们 -->
+        <action name="aboutus" class="aboutusAction" method="aboutusList">
+            <result name="get_aboutus">/WEB-INF/page/home/aboutus.jsp</result>
+        </action>
+        
+        <!-- 注册 -->
+        <action name="regist_*" class="homeAction" method="{1}">
+            <result name="get_list">/WEB-INF/page/regist/regist_phone.jsp</result>
+		    <result name="get_phone">/WEB-INF/page/regist/regist_info.jsp</result>
+			<result name="get_complete">/WEB-INF/page/regist/regist_complete.jsp</result>
+			<result name="sell_carbon">/WEB-INF/page/regist/protocol.jsp</result>
+		</action>
+		
+	  	<!-- 忘记密码 -->
+        <action name="forget_*" class="homeAction" method="{1}">
+           <result name="get_forgrt">/WEB-INF/page/forgetpswd/forget_password.jsp</result>
+           <result name="get_password">/WEB-INF/page/forgetpswd/reset_password.jsp</result>
+           <result name="get_reset">/WEB-INF/page/forgetpswd/forget_complete.jsp</result>
+		</action>
+    </package>
+</struts>

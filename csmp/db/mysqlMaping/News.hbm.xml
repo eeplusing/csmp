@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.moutum.csmp.domain">
+
+	<class name="News" table="csmp_news">
+		<id name="newsId" column="news_id">
+			<generator class="sequence">
+                <param name="sequence">news_sequence</param>
+            </generator>
+		</id>
+		<property name="userId" column="user_id" />
+        <property name="newsTitle" length="600" column="news_title" />
+        <property name="newsTime" column="news_time" />
+        <property name="newsContent" length="4000" column="news_content" />
+        <property name="newsType" column="news_type" />
+	</class>
+
+</hibernate-mapping>
