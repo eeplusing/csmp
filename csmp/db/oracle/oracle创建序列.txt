@@ -1,0 +1,21 @@
+�˺�:sys
+����:Oracle11g
+
+--创建序列号
+CREATE SEQUENCE user_sequence -- user_sequence这个就是后面要用到这个序列号时引用的名称
+INCREMENT BY 1　 -- 每次加几个
+START WITH 1　　 -- 从1开始计数
+NOMAXVALUE　　　 -- 不设置最大值
+NOCYCLE　　　　　-- 一直累加，不循环
+CACHE 100; -- 缓存值 100ֵ 100
+
+--查询序列当值
+select user_sequence.currval from dual;
+--查询序列下一个值
+select user_sequence.nextval from dual;
+
+--数据库导入导出操作
+--导出数据库
+exp csmp/csmp@127.0.0.1:1521/orcl file=d:/csmp.dmp full=y
+--导入数据库
+imp csmp/csmp@orcl file=d:/csmp.dmp full=y ignore=y
