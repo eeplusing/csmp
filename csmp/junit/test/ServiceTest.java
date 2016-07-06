@@ -122,7 +122,7 @@ public class ServiceTest
         System.out.println("123");
     }
     
-    @Test public void addUser()
+   /* @Test public void addUser()
     {
         Role role = roleService.getById(1);
         Grade grade = gradeService.getById(1);
@@ -156,7 +156,7 @@ public class ServiceTest
         user.setGrade(grade);
         user.setRole(role);
         userService.save(user);
-    }
+    }*/
     
     @Test public void selUser()
     {
@@ -194,12 +194,15 @@ public class ServiceTest
     
     @Test public void updateUser()
     {
-      /*  Role role = new Role();
-        role.setRoleName("超级管理员");
-        roleService.save(role);
-        User user = userService.getById(1);
-        user.setRole(role);
-        userService.update(user);*/
+    	//Role role = new Role();
+       // role.setRoleName("超级管理员");
+       // roleService.save(role);
+        User user1 = userService.getById(73);
+        User user2 = userService.getById(74);
+        user1.setLoginPassword(DigestUtils.md5Hex("123"));
+        user2.setLoginPassword(DigestUtils.md5Hex("456"));
+        userService.update(user1);
+        userService.update(user2);
     }
     
     @Test public void deleteUser()
