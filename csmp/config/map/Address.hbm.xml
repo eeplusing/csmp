@@ -4,7 +4,6 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="com.moutum.csmp.domain">
-
 	<class name="Address" table="csmp_address_info">
 		<id name="addressId" column="address_id">
 			<generator class="native" />
